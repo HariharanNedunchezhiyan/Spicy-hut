@@ -1,0 +1,193 @@
+:root{
+    --yellow:#FFC54D;
+    --red:crimson;
+    --green:#53BF9D;
+    --white:whitesmoke;
+}
+
+body,h2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainarea{
+    background-image: url('/Images/Backround.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--yellow);
+    min-width: 90px;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 1em;
+}
+
+nav a:hover{
+    color: var(--green);
+}
+
+#logo{
+    flex: 3;
+    font-size: 1.2em;
+    min-width:250px;
+}
+
+nav{
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    flex: 1;
+}
+
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+}
+
+.heading{
+    color: var(--red);
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.maintext div{
+    margin-top: 10px;
+}
+.subheading{
+    color: var(--yellow);
+}
+
+.maintext button{
+    margin-top: 2em;
+    width: 20vw;
+    border-radius: 10px;
+    padding: 0.7em;
+    background-color: var(--green);
+    color: var(--white);
+    border:1px solid var(--green);
+}
+
+button:hover{
+    transition:1s;
+    cursor: pointer;
+    color: var(--green);
+    background-color: var(--white);
+}
+
+.menu{
+    background: linear-gradient(to right,rgb(102, 99, 99),rgb(58, 56, 56));
+    color:var(--white);
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(258px,1fr));
+}
+
+.maincourse{
+    grid-row: span 2;
+}
+
+#menuheading,#locheading{
+    background: linear-gradient(to right,rgb(102, 99, 99),rgb(58, 56, 56));
+    color: var(--red);
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+}
+
+.menu th{
+    color: var(--green);
+    font-size: 1.6em;
+}
+
+table{
+    width: 100%;
+    padding: 1em;
+}
+
+
+
+#start{
+    display: flex;
+    justify-content: center;
+}
+
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.8em;
+}
+
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+
+.menu td:nth-child(2){
+    justify-self: right;
+}
+
+.locations{
+    padding-top: 15px;
+    background: linear-gradient(to right,rgb(102, 99, 99),rgb(58, 56, 56));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.locations div{
+    padding: 30px;
+}
+
+.locations address, .locations h2{
+    display: flex;
+    justify-content: center;
+}
+
+.locations h2{
+    padding-bottom: 10px;
+}
+
+header a i,nav a i{
+    margin-right: 0.5em;
+}
+
+
+.annanagar{
+    flex: 1 1 90px;
+    color: var(--white);
+}
+
+.velachery{
+    flex: 1 1 90px;
+    color: var(--white);
+}
+
+.Tambaram{
+    flex: 1 1 90px;
+    color: var(--white);
+}
+
+.locations h2{
+    color: var(--green);
+}
+
+footer{
+    background-color: rgb(47, 42, 42);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
