@@ -11,7 +11,7 @@ body,h2{
 }
 
 .mainarea{
-    background-image: url('/Images/Backround.jpg');
+    background-image: url('Backround.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
